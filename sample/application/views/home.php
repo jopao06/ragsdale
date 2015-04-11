@@ -9,12 +9,11 @@
 	</head>
 	<body>
 		<div id="header">
-			<a href="<?php echo base_url();?>ragsdale/tanga" class="button1"> Home |</a>
+			<a href="<?php echo base_url();?>" class="button1"> Home |</a>
 			<a type="button" class="button1" >Services |</a>
 			<a type="button" class="button1"> Products </a>
-			<a href="<?php echo base_url();?>application/views/home.php" id="placeholder">  </a>
 			<a type="button" class="button2"> Blog |</a>
-			<a type="button" class="button2"> About Us |</a>
+			<a href="<?php echo base_url();?>main/aboutUs" type="button" class="button2"> About Us |</a>
 			<a type="button" class="button2"> Contact Us </a>
 		</div>
 		<div id = "announcements">

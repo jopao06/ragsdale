@@ -1,3 +1,33 @@
+/*EM ADDED THIS CSS*/
+
+
+div .boxLeft,.boxRight{
+	position : relative;
+	top : 8em;
+	left : 7.5em;
+	margin-right: -1.25em;
+}
+
+div .boxRight{
+	left : 8em;
+	width : 29em;
+}
+
+div .panel,.aboutUsBar {
+  border-radius:                    0px;
+  -webkit-border-radius:            0px;
+  -moz-border-radius:               0px;
+}
+div .aboutUsBar{
+	margin-right:-1.2em;
+}
+div .menuBar{
+	margin-left:-1em;
+}
+
+/****END OF EM'S ADDITION OF CSS***/
+
+
 #header {
 	position: fixed;
 	left: 10%;
