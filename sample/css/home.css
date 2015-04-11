@@ -1,0 +1,123 @@
+#header {
+	position: fixed;
+	left: 10%;
+	width: 80%;
+	height: 5%;
+	border-bottom: 2px solid black;
+	margin: 0px;
+	padding: 0px;
+	word-spacing:-5px;
+	z-index: 1;
+}
+
+a {
+	text-decoration: none;
+}
+
+.button1 { 
+	
+	position: relative;
+	left: 5px;
+	font-size: 20px;
+	background-color: white;
+	border: transparent;
+}
+
+.button2 { 
+	position: relative;
+	right: -410px;
+	font-size: 20px;
+	background-color: white;
+	border: transparent;
+}
+
+a.button1:hover,  a.button1:active  {
+	background-color: gray;
+	color: white;
+}
+
+a.button2:hover , a.button2:active {
+	background-color: gray;
+	color: white;
+}
+
+a.button1:visited{
+	color: black;
+}
+
+#placeholder{
+	font-size: 30px;
+}
+
+#announcements{
+	position: absolute;
+	left: 10%;
+	width: 80%;
+	top: 8%;
+	height: 50%;
+	border-radius: 5px;
+	background-color: black;
+	color: white;
+	font-size: 30px;
+}
+#textBody{
+	position: absolute;
+	left: 10%;
+	width: 55%;
+	top: 65%;
+	height: 70%;
+	background-color: blue;
+	color: white;
+	font-size: 30px;
+	
+}
+#contacts{
+	position: absolute;
+	left: 67%;
+	width: 23%;
+	top: 65%;
+	height: 85%;
+	background-color: red;
+	color: black;
+	font-size: 30px;
+	
+}
+#getInTouch{
+	position: absolute;
+	left: 67%;
+	width: 23%;
+	top: 152%;
+	height: 20%;
+	background-color: pink;
+	color: black;
+	font-size: 30px;
+	
+}
+#recentPosts{
+	position: absolute;
+	left: 10%;
+	width: 55%;
+	top: 138%;
+	height: 30%;
+	background-color: blue;
+	color: white;
+	font-size: 30px;
+	
+}
+#footer{
+	position: absolute;
+	left: 10%;
+	width: 80%;
+	top: 176%;
+	height: 5%;
+	background-color: maroon;
+	color: white;
+	font-size: 30px
+	
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	height: 1800px;
+	background-color: white;
+}
