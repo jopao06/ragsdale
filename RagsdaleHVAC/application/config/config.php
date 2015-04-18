@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/sample';
+$config['base_url']	= 'http://localhost/RagsdaleHVAC';
 
 /*
 |--------------------------------------------------------------------------
